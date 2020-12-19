@@ -1,0 +1,28 @@
+$dark: #000;
+
+.navbar-brand {
+    font: {
+        size: 22px;
+        weight: bold;
+        family: sans-serif;
+    }
+    letter-spacing: 1px;
+}
+
+.landing-container {
+    background-image: url("../img/bg3.jpg");    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative;    
+}
+
+.footer {
+    background-color: $dark;
+}
+
+@media only screen and (max-width: 992px) {
+    .second-title {
+        display: none;
+    }
+}
